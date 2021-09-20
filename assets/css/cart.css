@@ -1,0 +1,184 @@
+.alert-box {
+    background-color: #f7f6f7;
+    border-radius: 16px;
+    border-top-color: #2685be;
+    border-width: 3px;
+    align-self: center;
+}
+
+.form-holder {
+    padding: 20px;
+    -webkit-box-shadow: 0 10px 40px #6e86d81a;
+    box-shadow: 0 10px 40px #6e86d81a;
+    border-radius: 5px;
+    background: #fff;
+}
+
+#no-product {
+    margin-top: 10px;
+}
+
+.fa-calendar {
+    color: #2685be;
+    padding-left: 14px;
+}
+
+.btn-success {
+    background-color: #64cfa1;
+    border: none;
+    border-radius: 9px;
+    box-shadow: 2px 5px #e5f9f3;
+}
+
+#empty_cart {
+    display: none;
+}
+
+td.product-thumbnail {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.new-form {
+    width: 30%;
+}
+
+.font-titr {
+    font-family: 'BTitr';
+}
+
+.number {
+    width: 85px;
+    font-weight: 500;
+    color: #788784;
+    border: none;
+    box-shadow: none;
+}
+
+.input-text {
+    width: 40%;
+    font-family: 'BTitr';
+}
+
+.copen {
+    width: 60%;
+}
+
+input {
+    text-align: right;
+    font-size: 14px;
+    color: #788784;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 15px 9px 5px;
+    background-color: #f3f6f9;
+    outline: none !important;
+    margin-left: 5px !important;
+}
+
+.sum {
+    font-size: 20px;
+    font-weight: 500;
+    color: #2dcea2;
+}
+
+table a {
+    color: rgb(120, 135, 132);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none !important;
+}
+
+table img {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+table tbody tr td:last-child {
+    border-radius: 14px 0px 0px 14px;
+    border-left: 1px dashed #dee3f7 !important;
+}
+
+table tbody tr td:first-child {
+    border-radius: 0px 14px 14px 0px;
+    border-right: 1px dashed #dee3f7 !important;
+}
+
+table tbody tr:last-child td {
+    border: none !important;
+}
+
+.header {
+    background-color: #f3f6f9;
+}
+
+table thead tr:nth-child(2) th {
+    background: 0 0 !important;
+    padding: 0 !important;
+    height: 20px;
+}
+
+table thead tr th {
+    background: #f3f6f9;
+    border: 0 !important;
+    padding: 17px 20px 14px !important;
+}
+
+table thead tr th:first-child {
+    border-radius: 0 .3125rem .3125rem 0;
+}
+
+table thead tr th:last-child {
+    border-radius: .3125rem 0 0 .3125rem;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 500;
+    color: #919eab;
+}
+
+.copen-btn {
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    line-height: initial;
+    padding: 8px 20px;
+    background: #919eab;
+    box-shadow: none;
+}
+
+.btn-success {
+    background-color: #2dcea2;
+}
+
+.total {
+    height: 42px;
+    border-radius: 40px;
+    border-style: dashed;
+    border-color: rgb(20, 20, 20);
+    border-width: 1px;
+}
+
+.sub-total {
+    height: 42px;
+    border-radius: 40px;
+}
+
+table tbody tr.total td .price-amount {
+    font-family: 'BTitr';
+    font-size: 20px;
+    font-weight: 500;
+    color: #2dcea2;
+}
+
+table tbody tr.sub-total td .price-amount {
+    font-family: 'BTitr';
+    font-size: 20px;
+    font-weight: 500;
+    color: #919eab;
+}
+
+.space-in-table {
+    padding: 10px;
+}

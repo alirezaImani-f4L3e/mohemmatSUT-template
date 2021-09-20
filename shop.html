@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/shop.css'>
+
+
+</head>
+
+</html>
+
+<body lang="fa" dir="rtl">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 mb-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./home.html">مهمات شریف</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./home.html">خانه</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./blog.html">بلاگ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">ارتباط باما</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./cart.html">سبد خرید</a></li>
+                            <li><a class="dropdown-item" href="./shop.html">فروشگاه</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./about.html">درباره ما</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+
+        <div class="row flex-row">
+            <div class="col-12 col-lg-4 col-xl-3 d-none d-lg-block">
+                <div class="sticky-top">
+                    <div class="search d-flex">
+                        <a href="#"><i class="fa fa-search"></i></a>
+                        <input type="text" class="form-control" placeholder="جستجو">
+                    </div>
+                    <br>
+                    <div class="list-group">
+                        <div class="card-header title">
+                            نوشته‌های تازه
+                        </div>
+                        <div class="list-group-item">
+                            <i class="fas fa-folder-open" style="color: #919eab;"></i><a href="#" class="cart-item">بازاریابی محتوا</a>
+                        </div>
+                        <div class="list-group-item">
+                            <i class="fas fa-folder-open" style="color: #919eab;"></i><a href="#" class="cart-item">سئو
+                                سایت</a>
+                        </div>
+                        <div class="list-group-item">
+                            <i class="fas fa-folder-open" style="color: #919eab;"></i><a href="#" class="cart-item">شبکه
+                                های اجتماعی</a>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="container">
+                        <h5 class="title2">ما را دنبال کنید</h5>
+                        <div class="social d-flex">
+                            <a href="#" id="share-fb" class="sharer button"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" id="share-tw" class="sharer button"><i class="fab fa-twitter"></i></a>
+                            <a href="#" id="share-li" class="sharer button"><i class="fab fa-instagram"></i></a>
+                            <a href="#" id="share-gp" class="sharer button"><i class="fab fa-telegram-plane"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-lg-8 col-xl-9">
+                <div class="row">
+                    <div class="row justify-content-between top-row d-flex mb-4 alp-top-archive-product-holder">
+                        <div class="col-6">
+                            <p class="selecting">نمایش انتخاب شده‌ها از ۶</p>
+                        </div>
+                        <div class="col-6 float-left" dir="ltr" style="text-align: right;">
+                            <select class="form-select orderby" aria-label="Default select example">
+                                <option selected>مرتب سازی پیش فرض</option>
+                                <option value="1">مرتب سازی بر اساس محبوبیت</option>
+                                <option value="2">مرتب سازی بر اساس امتیاز</option>
+                                <option value="3">مرتب سازی بر اساس آخرین</option>
+                                <option value="4">مرتب سازی بر اساس ارزان ترین</option>
+                                <option value="5">مرتب سازی بر اساس گران ترین</option>
+                              </select>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mb-4">
+                        <div class="holder">
+                            <div class="row align-items-center">
+                                <div class="row justify-content-center card mb-3">
+                                    <div class="row g-0 ustify-content-center mb-3">
+                                        <div class="col-12 col-sm-5 col-md-12 col-xl-5 mb-3 mb-md-0">
+                                            <a href="https://ammirlohi.com/learnplus/10-secrets-to-writing-an-advertorial/" class="alp-ar-blog-box--thumbnail" dideo-checked="true">
+                                                <img class="attachment-alp-post-thumbnails size-alp-post-thumbnails " src="./assets/images/course-image.jpg" alt="آموزش Google Analytics"> </a>
+
+                                        </div>
+                                        <div class="col-12 col-sm-7 col-md-12 col-xl-7 mt-3 mt-xl-0">
+                                            <div class="card-body">
+                                                <div style="align-content: center;">
+                                                    <a href="https://ammirlohi.com/learnplus/10-secrets-to-writing-an-advertorial/" class="card-title" dideo-checked="true">
+                                                        فرمول سری نوشتن رپورتاژ آگهی‌های موفق! </a>
+                                                    </p>
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div>
+                                                            <p class="card-text"><small class="text-muted font-titr">345,000</small>
+                                                        </div>
+                                                        <div>
+                                                            <button type="button" class="card-link btn btn-success btn-lg rounded-pill">ثبت
+                                                                نام دوره</button>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mb-4">
+                        <div class="holder">
+                            <div class="row align-items-center">
+                                <div class="row justify-content-center card mb-3">
+                                    <div class="row g-0 ustify-content-center mb-3">
+                                        <div class="col-12 col-sm-5 col-md-12 col-xl-5 mb-3 mb-md-0">
+                                            <a href="https://ammirlohi.com/learnplus/10-secrets-to-writing-an-advertorial/" class="alp-ar-blog-box--thumbnail" dideo-checked="true">
+                                                <img class="attachment-alp-post-thumbnails size-alp-post-thumbnails " src="./assets/images/course-image.jpg" alt="آموزش Google Analytics"> </a>
+
+                                        </div>
+                                        <div class="col-12 col-sm-7 col-md-12 col-xl-7 mt-3 mt-xl-0">
+                                            <div class="card-body">
+                                                <div style="align-content: center;">
+                                                    <a href="https://ammirlohi.com/learnplus/10-secrets-to-writing-an-advertorial/" class="card-title" dideo-checked="true">
+                                                        فرمول سری نوشتن رپورتاژ آگهی‌های موفق! </a>
+                                                    </p>
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div>
+                                                            <p class="card-text"><small class="text-muted font-titr">345,000</small>
+                                                        </div>
+                                                        <div>
+                                                            <button type="button" class="card-link btn btn-success btn-lg rounded-pill">ثبت
+                                                                نام دوره</button>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mb-4">
+                        <div class="holder">
+                            <div class="row align-items-center">
+                                <div class="row justify-content-center card mb-3">
+                                    <div class="row g-0 ustify-content-center mb-3">
+                                        <div class="col-12 col-sm-5 col-md-12 col-xl-5 mb-3 mb-md-0">
+                                            <a href="https://ammirlohi.com/learnplus/10-secrets-to-writing-an-advertorial/" class="alp-ar-blog-box--thumbnail" dideo-checked="true">
+                                                <img class="attachment-alp-post-thumbnails size-alp-post-thumbnails " src="./assets/images/course-image.jpg" alt="آموزش Google Analytics"> </a>
+
+                                        </div>
+                                        <div class="col-12 col-sm-7 col-md-12 col-xl-7 mt-3 mt-xl-0">
+                                            <div class="card-body">
+                                                <div style="align-content: center;">
+                                                    <a href="https://ammirlohi.com/learnplus/10-secrets-to-writing-an-advertorial/" class="card-title" dideo-checked="true">
+                                                        فرمول سری نوشتن رپورتاژ آگهی‌های موفق! </a>
+                                                    </p>
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div>
+                                                            <p class="card-text"><small class="text-muted font-titr">345,000</small>
+                                                        </div>
+                                                        <div>
+                                                            <button type="button" class="card-link btn btn-success btn-lg rounded-pill">ثبت
+                                                                نام دوره</button>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mb-4">
+                        <div class="holder">
+                            <div class="row align-items-center">
+                                <div class="row justify-content-center card mb-3">
+                                    <div class="row g-0 ustify-content-center mb-3">
+                                        <div class="col-12 col-sm-5 col-md-12 col-xl-5 mb-3 mb-md-0">
+                                            <a href="https://ammirlohi.com/learnplus/10-secrets-to-writing-an-advertorial/" class="alp-ar-blog-box--thumbnail" dideo-checked="true">
+                                                <img class="attachment-alp-post-thumbnails size-alp-post-thumbnails " src="./assets/images/course-image.jpg" alt="آموزش Google Analytics"> </a>
+
+                                        </div>
+                                        <div class="col-12 col-sm-7 col-md-12 col-xl-7 mt-3 mt-xl-0">
+                                            <div class="card-body">
+                                                <div style="align-content: center;">
+                                                    <a href="https://ammirlohi.com/learnplus/10-secrets-to-writing-an-advertorial/" class="card-title" dideo-checked="true">
+                                                        فرمول سری نوشتن رپورتاژ آگهی‌های موفق! </a>
+                                                    </p>
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div>
+                                                            <p class="card-text"><small class="text-muted font-titr">345,000</small>
+                                                        </div>
+                                                        <div>
+                                                            <button type="button" class="card-link btn btn-success btn-lg rounded-pill">ثبت
+                                                                نام دوره</button>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mb-4">
+                        <div class="holder">
+                            <div class="row align-items-center">
+                                <div class="row justify-content-center card mb-3">
+                                    <div class="row g-0 ustify-content-center mb-3">
+                                        <div class="col-12 col-sm-5 col-md-12 col-xl-5 mb-3 mb-md-0">
+                                            <a href="https://ammirlohi.com/learnplus/10-secrets-to-writing-an-advertorial/" class="alp-ar-blog-box--thumbnail" dideo-checked="true">
+                                                <img class="attachment-alp-post-thumbnails size-alp-post-thumbnails " src="./assets/images/course-image.jpg" alt="آموزش Google Analytics"> </a>
+
+                                        </div>
+                                        <div class="col-12 col-sm-7 col-md-12 col-xl-7 mt-3 mt-xl-0">
+                                            <div class="card-body">
+                                                <div style="align-content: center;">
+                                                    <a href="https://ammirlohi.com/learnplus/10-secrets-to-writing-an-advertorial/" class="card-title" dideo-checked="true">
+                                                        فرمول سری نوشتن رپورتاژ آگهی‌های موفق! </a>
+                                                    </p>
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div>
+                                                            <p class="card-text"><small class="text-muted font-titr">345,000</small>
+                                                        </div>
+                                                        <div>
+                                                            <button type="button" class="card-link btn btn-success btn-lg rounded-pill">ثبت
+                                                                نام دوره</button>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="page-numbers d-block w-100">
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./assets/fontawesome-free-5.14.0-web/js/all.js"></script>
+    <script src='./assets/js/shop.js'></script>
+</body>
+
+</html>

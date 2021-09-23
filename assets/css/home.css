@@ -25,31 +25,6 @@
     background-color: #ff9d43;
 }
 
-
-/* .header-badge {
-    position: relative;
-    bottom: 80px;
-}
-
-.badge {
-    background-color: white;
-    position: relative;
-    bottom: 0;
-    transition: all .2s linear;
-    color: black;
-    display: flex;
-    flex-direction: row;
-}
-
-.badge:hover {
-    bottom: 5px;
-}
-
-.badge-icons {
-    width: 60px;
-    height: 60px;
-} */
-
 .seprator {
     height: 7px;
     width: 60px;

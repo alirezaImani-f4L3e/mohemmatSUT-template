@@ -10,7 +10,6 @@ $(document).ready(function() {
         const name = document.getElementById('name');
         const email = document.getElementById('email');
         const msg = document.getElementById('message');
-        // alert(name.value)
 
         // message boxes
         // const nameMSG = document.getElementById('nameMSG');
@@ -44,7 +43,7 @@ $(document).ready(function() {
 
     });
     $('input,textarea').keypress(function(e) {
-        // alert('hello')
+
         const name = document.getElementById('name');
         const email = document.getElementById('email');
         const msg = document.getElementById('message');
@@ -59,7 +58,8 @@ $(document).ready(function() {
                 'display': 'none',
             });
         }
-        if (emailValidator(email.value) == true) { // VALIDATE EMAIL INPUT
+        if (emailValidator(email.value) == true) {
+            // VALIDATE EMAIL INPUT
             $("#mailMSG").css({
                 'display': 'none',
             });

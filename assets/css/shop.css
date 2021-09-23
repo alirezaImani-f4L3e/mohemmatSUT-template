@@ -143,7 +143,7 @@
 
 .search input:focus {
     box-shadow: none;
-    border: 2px solid blue
+    border: 2px solid #2DCEA2
 }
 
 .search .fa-search {

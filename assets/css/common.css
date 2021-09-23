@@ -6,8 +6,86 @@
     font-family: Vazir!important;
 }
 
-.pit-clear {
-    width: 100%;
-    height: 80px;
-    background-color: aqua;
+.navbar-pv {
+    height: 70px;
+}
+
+.logo-img-pv {
+    width: 50px;
+    height: 50px;
+}
+
+.logo-link-pv {
+    text-decoration: none;
+    outline: none;
+    color: orange;
+}
+
+.logo-link-pv:hover {
+    color: orange;
+}
+
+.auth-btn-pv {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 249, 238);
+}
+
+.bars-btn-pv {
+    border: none;
+    outline: none;
+    color: black!important;
+    background-color: rgb(235, 249, 238)!important;
+}
+
+.list-item-pv {
+    border: none;
+}
+
+.telegram-icon {
+    color: #0088cc!important;
+}
+
+.whatsapp-icon {
+    color: #24f046!important;
+}
+
+.navigation-bars-pv {
+    text-decoration: none!important;
+    color: black!important;
+}
+
+.bars-account-pv {
+    background-color: orange!important;
+}
+
+.bars-cart-pv {
+    background-color: #2dcea2!important;
+}
+
+.search {
+    color: #919eab;
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1)
+}
+
+.search input {
+    height: 40px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4
+}
+
+.search input:focus {
+    box-shadow: none;
+    border: 2px solid #2DCEA2
+}
+
+.search .fa-search {
+    color: #919eab;
+    position: absolute;
+    top: 12px;
+    left: 16px
 }

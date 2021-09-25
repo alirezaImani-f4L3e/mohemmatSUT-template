@@ -1,3 +1,14 @@
+@media (min-width: 1200px) {
+         
+    .font-titr {
+        font-size: 1.3rem; 
+    }
+    table a {
+    font-size: 1.2rem; 
+    }
+}
+
+
 .alert-box {
     background-color: #f7f6f7;
     border-radius: 16px;
@@ -55,8 +66,7 @@ td.product-thumbnail {
     box-shadow: none;
 }
 
-.input-text {
-    width: 40%;
+.input-text { 
     font-family: 'BTitr';
 }
 
@@ -84,11 +94,9 @@ input {
 
 table a {
     color: rgb(120, 135, 132);
-    font-size: 16px;
     font-weight: 500;
     text-decoration: none !important;
 }
-
 table img {
     padding: 20px;
     border-radius: 5px;
@@ -181,4 +189,21 @@ table tbody tr.sub-total td .price-amount {
 
 .space-in-table {
     padding: 10px;
+}
+.my-custom-scrollbar {
+    position: relative;
+    height: 300px;
+    overflow: auto;
+}
+.table-wrapper-scroll-y {
+    display: block;
+}
+.horizontal-scrollable > .row {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+  
+.horizontal-scrollable > .row > .col-xs-4 {
+    display: inline-block;
+    float: none;
 }

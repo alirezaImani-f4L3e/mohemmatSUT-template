@@ -1,0 +1,34 @@
+.image {
+    height: 80vh;
+}
+
+.desc {
+    height: max-content;
+    padding: 30px 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background: #28b992;
+}
+
+.mt-6 {
+    margin-top: 5rem;
+}
+
+.seprator {
+    height: 7px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+.comments {
+    height: 300px;
+}
+
+.avatar {
+    width: 100px;
+    height: 75px;
+}

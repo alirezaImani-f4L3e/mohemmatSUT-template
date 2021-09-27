@@ -94,10 +94,20 @@
 
                 </ul>
             </div>
-            <div class="col-6 h-100 d-flex justify-content-center pe-3">
-                <a href="./auth.html" class="btn btn-light rounded-3 auth-btn-pv me-3"><i class="fa fa-user"></i></a>
-                <button class="btn btn-light rounded-3 auth-btn-pv me-3"><i class="fa fa-search"></i></button>
-                <a href="./cart.html" class="btn btn-light rounded-3 auth-btn-pv me-3"><i class="fa fa-shopping-cart"></i></a>
+            <div class="col-6 h-100 d-flex justify-content-center pe-3 navigation-container-pv" x-data="{searchInput :false}">
+                <div x-show="searchInput" class="search-input-pv shadow" x-on:click.outside="searchInput=false">
+                    <form class="col-12" id="contactForm">
+                        <div class="search d-flex">
+                            <a href="#"><i class="fa fa-search"></i></a>
+                            <input type="text" class="form-control" placeholder="جستجو">
+                        </div>
+
+                    </form>
+                </div>
+
+                <a href="./auth.html" class="btn btn-light rounded-3 auth-btn-pv me-3" title="حساب کاربری"><i class="fa fa-user"></i></a>
+                <button class="btn btn-light rounded-3 auth-btn-pv me-3"><i class="fa fa-search" @click="searchInput=true" title="جستجو"></i></button>
+                <a href="./cart.html" class="btn btn-light rounded-3 auth-btn-pv me-3"><i class="fa fa-shopping-cart" title="سبد خرید"></i></a>
             </div>
         </div>
 
@@ -186,6 +196,9 @@
 
     </div>
 
+
+    <!-- alpine js -->
+    <script defer src="https://unpkg.com/alpinejs@3.4.1/dist/cdn.min.js"></script>
 
 
     <script src="./assets/fontawesome-free-5.14.0-web/js/all.js"></script>

@@ -89,3 +89,17 @@
     top: 12px;
     left: 16px
 }
+
+.navigation-container-pv {
+    position: relative;
+}
+
+.search-input-pv {
+    position: absolute;
+    top: 50px;
+    padding: 20px 40px;
+    height: max-content;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+}

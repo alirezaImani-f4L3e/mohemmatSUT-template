@@ -1,3 +1,15 @@
+@media (max-width: 300px) {
+    .holder img {
+        width: 60%;
+    }
+}
+@media (min-width: 600px) {
+    .holder img {
+        width: 100%;
+    }
+}
+
+
 .holder {
     position: relative;
     padding: 20px;
@@ -61,7 +73,7 @@
 }
 
 .holder img {
-    width: 100%;
+    /*width: 100%;*/
     height: auto;
     border-radius: 16px
 }

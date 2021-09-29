@@ -1,0 +1,56 @@
+.forms input {
+    background: #f3f6f9;
+    padding: 10px 15px;
+    border: none;
+}
+
+.forms label span {
+    color: red;
+}
+
+.forms button {
+    background: #2dcea2;
+}
+
+.forms {
+    width: 100%;
+}
+
+.forms form {
+    border: 1px solid #d3ced2;
+    border-radius: 5px;
+}
+
+.title {
+    margin-bottom: 25px;
+}
+
+.title::before {
+    content: "";
+    border: 3px solid #2dcea2;
+    background: #2dcea2;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.forget-password-link-pv {
+    text-decoration: none;
+}
+
+.register-form-pv {
+    margin-top: 50px;
+}
+
+.login-form-pv {
+    margin-top: 50px;
+}
+
+.forget-password-container-pv {
+    padding-top: 25px;
+    display: flex;
+    flex: 1;
+}
+
+.register-btn-pv {
+    margin-top: 60px;
+}

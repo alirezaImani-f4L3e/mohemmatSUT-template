@@ -7,35 +7,119 @@
     <title>files</title>
 
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+          integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/files.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
 </head>
 
 <body lang="fa" dir="rtl">
 
-    <nav class="navbar col-12 mb-4 navbar-pv">
+<nav class="navbar col-12 mb-4 navbar-pv">
 
-        <div class="col-8 col-md-2 h-100 d-flex justify-content-start ">
-            <a href="./home.html" class="d-flex justify-content-center flex-row align-items-center logo-link-pv ms-4 ms-md-5">
-                <img src="./assets/images/626px-Sharif_logo.svg.png" alt="sharif university" class="logo-img-pv image-fluid">
+    <div class="col-8 col-md-2 h-100 d-flex justify-content-start ">
+        <a href="./home.html"
+           class="d-flex justify-content-center flex-row align-items-center logo-link-pv ms-4 ms-md-5">
+            <img src="./assets/images/626px-Sharif_logo.svg.png" alt="sharif university"
+                 class="logo-img-pv image-fluid">
 
-            </a>
-        </div>
-
-        <a class="btn btn-primary d-md-none me-4 bars-btn-pv" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-            <i class="fa fa-bars"></i>
         </a>
+    </div>
 
-        <div class="offcanvas offcanvas-start w-75 d-md-none" tabindex="-1" id="offcanvasExample">
-            <div class="offcanvas-header">
-                <a href="./home.html" class="d-flex justify-content-center flex-row align-items-center logo-link-pv ms-2 ">
-                    <img src="./assets/images/626px-Sharif_logo.svg.png" alt="sharif university" class="logo-img-pv image-fluid me-2">
-                    <h6 class="offcanvas-title" id="offcanvasExampleLabel">مهمات شریف</h6>
-                </a>
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <a class="btn btn-primary d-md-none me-4 bars-btn-pv" data-bs-toggle="offcanvas" href="#offcanvasExample"
+       role="button" aria-controls="offcanvasExample">
+        <i class="fa fa-bars"></i>
+    </a>
 
+    <div class="offcanvas offcanvas-start w-75 d-md-none" tabindex="-1" id="offcanvasExample">
+        <div class="offcanvas-header">
+            <a href="./home.html" class="d-flex justify-content-center flex-row align-items-center logo-link-pv ms-2 ">
+                <img src="./assets/images/626px-Sharif_logo.svg.png" alt="sharif university"
+                     class="logo-img-pv image-fluid me-2">
+                <h6 class="offcanvas-title" id="offcanvasExampleLabel">مهمات شریف</h6>
+            </a>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+        </div>
+        <div class="offcanvas-body">
+            <form class="col-12" id="contactForm">
+                <div class="search d-flex">
+                    <a href="#"><i class="fa fa-search"></i></a>
+                    <input type="text" class="form-control" placeholder="جستجو">
+                </div>
+
+            </form>
+
+            <a href="./auth.html"
+               class="col-12 mt-2 d-flex justify-content-center align-items-center py-2 rounded-3 navigation-bars-pv bars-account-pv">
+                <h6 class="mt-1"><i class="fas fa-user "></i> حساب کاربری</h6>
+            </a>
+            <a href="./cart.html"
+               class="col-12 mt-2 d-flex justify-content-center align-items-center py-2 rounded-3 navigation-bars-pv bars-cart-pv mb-5">
+                <h6 class="mt-1"><i class="fas fa-shopping-cart"></i>سبد خرید</h6>
+            </a>
+
+
+            <div class="list-group ">
+                <a href="./home.html"
+                   class="list-group-item list-group-item-action list-item-pv d-flex justify-content-center"><i
+                        class="fa fa-home me-2"></i> صفحه اصلی</a>
+                <a href="./shop.html"
+                   class="list-group-item list-group-item-action list-item-pv d-flex justify-content-center"><i
+                        class="fa fa-school me-2"></i>دوره ها</a>
+                <a href="./files.html"
+                   class="list-group-item list-group-item-action list-item-pv d-flex justify-content-center"><i
+                        class="fa fa-file me-2"></i>فایل ها</a>
+                <a href="./blog.html"
+                   class="list-group-item list-group-item-action list-item-pv d-flex justify-content-center"><i
+                        class="fa fa-blog me-2"></i>بلاگ</a>
+                <a href="./contact.html"
+                   class="list-group-item list-group-item-action list-item-pv d-flex justify-content-center"><i
+                        class="fa fa-blog me-2"></i>ارتباط با ما</a>
+                <a href="./about.html"
+                   class="list-group-item list-group-item-action list-item-pv d-flex justify-content-center"><i
+                        class="fa fa-blog me-2"></i>درباره ما</a>
             </div>
-            <div class="offcanvas-body">
+
+            <div class="col-12 mt-5 d-flex justify-content-center">
+                <h5><i class="fab fa-telegram-plane telegram-icon"></i> @mohemmat</h5>
+            </div>
+            <div class="col-12 mt-2 d-flex justify-content-center">
+                <h5><i class="fab fa-whatsapp whatsapp-icon"></i> @mohemmat</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-4 col-md-10 h-100 d-flex flex-row align-items-center pt-2 d-none d-md-flex">
+        <div class="col-6 h-100 ">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-around flex-row align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link active text-muted" aria-current="page" href="./home.html">خانه</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-muted" href="./shop.html">دوره ها</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-muted" href="./files.html">فایل ها</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-muted" href="./blog.html">بلاگ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-muted" href="./contact.html">ارتباط با ما</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-muted" href="./about.html">درباره ما</a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="col-6 h-100 d-flex justify-content-center pe-3 navigation-container-pv"
+             x-data="{searchInput :false}">
+            <div x-show="searchInput" class="search-input-pv shadow" x-on:click.outside="searchInput=false">
                 <form class="col-12" id="contactForm">
                     <div class="search d-flex">
                         <a href="#"><i class="fa fa-search"></i></a>
@@ -43,89 +127,220 @@
                     </div>
 
                 </form>
-
-                <a href="./auth.html" class="col-12 mt-2 d-flex justify-content-center align-items-center py-2 rounded-3 navigation-bars-pv bars-account-pv">
-                    <h6 class="mt-1"><i class="fas fa-user "></i> حساب کاربری</h6>
-                </a>
-                <a href="./cart.html" class="col-12 mt-2 d-flex justify-content-center align-items-center py-2 rounded-3 navigation-bars-pv bars-cart-pv mb-5">
-                    <h6 class="mt-1"><i class="fas fa-shopping-cart"></i>سبد خرید</h6>
-                </a>
-
-
-                <div class="list-group ">
-                    <a href="./home.html" class="list-group-item list-group-item-action list-item-pv d-flex justify-content-center"><i class="fa fa-home me-2"></i> صفحه اصلی</a>
-                    <a href="./shop.html" class="list-group-item list-group-item-action list-item-pv d-flex justify-content-center"><i class="fa fa-school me-2"></i>دوره ها</a>
-                    <a href="./files.html" class="list-group-item list-group-item-action list-item-pv d-flex justify-content-center"><i class="fa fa-file me-2"></i>فایل ها</a>
-                    <a href="./blog.html" class="list-group-item list-group-item-action list-item-pv d-flex justify-content-center"><i class="fa fa-blog me-2"></i>بلاگ</a>
-                    <a href="./contact.html" class="list-group-item list-group-item-action list-item-pv d-flex justify-content-center"><i class="fa fa-blog me-2"></i>ارتباط با ما</a>
-                    <a href="./about.html" class="list-group-item list-group-item-action list-item-pv d-flex justify-content-center"><i class="fa fa-blog me-2"></i>درباره ما</a>
-                </div>
-
-                <div class="col-12 mt-5 d-flex justify-content-center">
-                    <h5><i class="fab fa-telegram-plane telegram-icon"></i> @mohemmat</h5>
-                </div>
-                <div class="col-12 mt-2 d-flex justify-content-center">
-                    <h5><i class="fab fa-whatsapp whatsapp-icon"></i> @mohemmat</h5>
-                </div>
             </div>
+
+            <a href="./auth.html" class="btn btn-light rounded-3 auth-btn-pv me-3" title="حساب کاربری"><i
+                    class="fa fa-user"></i></a>
+            <button class="btn btn-light rounded-3 auth-btn-pv me-3"><i class="fa fa-search" @click="searchInput=true"
+                                                                        title="جستجو"></i></button>
+            <a href="./cart.html" class="btn btn-light rounded-3 auth-btn-pv me-3"><i class="fa fa-shopping-cart"
+                                                                                      title="سبد خرید"></i></a>
         </div>
+    </div>
 
-        <div class="col-4 col-md-10 h-100 d-flex flex-row align-items-center pt-2 d-none d-md-flex">
-            <div class="col-6 h-100 ">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-around flex-row align-items-center">
-                    <li class="nav-item">
-                        <a class="nav-link active text-muted" aria-current="page" href="./home.html">خانه</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-muted" href="./shop.html">دوره ها</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-muted" href="./files.html">فایل ها</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-muted" href="./blog.html">بلاگ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-muted" href="./contact.html">ارتباط با ما</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-muted" href="./about.html">درباره ما</a>
-                    </li>
+</nav>
+<div class="row" dir="ltr">
+    <div class="col-md-3">
+        &nbsp;
+        <label class="font-titr">
+          فیلتر نوع فایل
+        </label>
+        &nbsp;
+        <select class="form-select">
+            <option selected>انتخاب</option>
+            <option value="1">pdf</option>
+            <option value="2">zip</option>
+            <option value="3">word</option>
+        </select>
+    </div>
+    <div class="col-md-3">
+        &nbsp;
+        <label class="font-titr">
+           فیلتر تاریخ
+        </label>
+        &nbsp;
+        <select class="form-select">
+            <option selected>انتخاب</option>
+            <option value="1">۱۴۰۰</option>
+            <option value="2">۱۳۹۹</option>
+            <option value="3">۱۳۹۸</option>
+        </select>
+    </div>
+    <div class="col-md-3">
 
-                </ul>
+    </div>
+    <div class="col-md-3">
+        <div class="input-group">
+            <div class="form-outline row">
+                <div class="col-3">
+                    <button type="button" class="btn btn-primary">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <div class="col-9">
+                    <input type="search" id="form1" class="form-control"/>
+                </div>
             </div>
-            <div class="col-6 h-100 d-flex justify-content-center pe-3 navigation-container-pv" x-data="{searchInput :false}">
-                <div x-show="searchInput" class="search-input-pv shadow" x-on:click.outside="searchInput=false">
-                    <form class="col-12" id="contactForm">
-                        <div class="search d-flex">
-                            <a href="#"><i class="fa fa-search"></i></a>
-                            <input type="text" class="form-control" placeholder="جستجو">
+
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="container">
+        <div class="table-wrap">
+            <table class="table table-responsive table-borderless">
+                <thead class="font-titr">
+                <th>تصویر</th>
+                <th>توضیحات</th>
+                <th>تاریخ آپلود</th>
+                <th>نوع فایل</th>
+                <th>
+                    <button id="sort-by-date" class="fas fa-caret-down"></button> &nbsp;آخرین تغییر
+                </th>
+                <th>دسترسی</th>
+                </thead>
+                <tbody>
+                <tr class="align-middle alert border-bottom" role="alert">
+                    <td class="text-center"><img class="pic"
+                                                 src="https://www.freepnglogos.com/uploads/shoes-png/dance-shoes-png-transparent-dance-shoes-images-5.png"
+                                                 alt=""></td>
+                    <td>
+                        <div>
+                            <p class="m-0 fw-bold">سوالات فیزیک ۲</p>
+                            <p class="m-0 text-muted">یکسری توضیحات راجع به سوالات که میتواند متغییر باشد</p>
+                        </div>
+                    </td>
+                    <td class="font-titr">
+                        ۱۴۰۰/۱۲/۱۲
+                    </td>
+                    <td class="d-">
+                        <p class="m-0 text-muted-bold">
+                            ZIP
+                        </p>
+                    </td>
+                    <td class="font-titr">
+                        ۱۴۰۰/۱۲/۱۵
+                    </td>
+                    <td>
+                        <div class="row">
+                            <div class="col-3 offset-3">
+                                <i class="fas fa-file-archive fa-4x"></i>
+                            </div>
                         </div>
 
-                    </form>
-                </div>
-
-                <a href="./auth.html" class="btn btn-light rounded-3 auth-btn-pv me-3" title="حساب کاربری"><i class="fa fa-user"></i></a>
-                <button class="btn btn-light rounded-3 auth-btn-pv me-3"><i class="fa fa-search" @click="searchInput=true" title="جستجو"></i></button>
-                <a href="./cart.html" class="btn btn-light rounded-3 auth-btn-pv me-3"><i class="fa fa-shopping-cart" title="سبد خرید"></i></a>
-            </div>
+                    </td>
+                </tr>
+                <tr class="align-middle alert border-bottom" role="alert">
+                    <td class="text-center"><img class="pic"
+                                                 src="https://www.freepnglogos.com/uploads/shoes-png/dance-shoes-png-transparent-dance-shoes-images-5.png"
+                                                 alt=""></td>
+                    <td>
+                        <div>
+                            <p class="m-0 fw-bold">سوالات فیزیک ۲</p>
+                            <p class="m-0 text-muted">یکسری توضیحات راجع به سوالات که میتواند متغییر باشد</p>
+                        </div>
+                    </td>
+                    <td class="font-titr">
+                        ۱۴۰۰/۱۲/۱۲
+                    </td>
+                    <td class="d-">
+                        <p class="m-0 text-muted-bold">
+                            Doc
+                        </p>
+                    </td>
+                    <td class="font-titr">
+                        ۱۴۰۰/۱۲/۱۵
+                    </td>
+                    <td>
+                        <div class="row">
+                            <div class="col-3">
+                                <svg class="svg-inline--fa fa-file-image fa-w-12 fa-4x" aria-hidden="true" focusable="false" data-prefix="far" data-icon="file-image" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm32-48h224V288l-23.5-23.5c-4.7-4.7-12.3-4.7-17 0L176 352l-39.5-39.5c-4.7-4.7-12.3-4.7-17 0L80 352v64zm48-240c-26.5 0-48 21.5-48 48s21.5 48 48 48 48-21.5 48-48-21.5-48-48-48z"></path></svg><!-- <i class="far fa-file-image fa-4x"></i> -->
+                            </div>
+                            <div class="col-3">
+                                <svg class="svg-inline--fa fa-file-word fa-w-12 fa-4x" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="file-word" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm57.1 120H305c7.7 0 13.4 7.1 11.7 14.7l-38 168c-1.2 5.5-6.1 9.3-11.7 9.3h-38c-5.5 0-10.3-3.8-11.6-9.1-25.8-103.5-20.8-81.2-25.6-110.5h-.5c-1.1 14.3-2.4 17.4-25.6 110.5-1.3 5.3-6.1 9.1-11.6 9.1H117c-5.6 0-10.5-3.9-11.7-9.4l-37.8-168c-1.7-7.5 4-14.6 11.7-14.6h24.5c5.7 0 10.7 4 11.8 9.7 15.6 78 20.1 109.5 21 122.2 1.6-10.2 7.3-32.7 29.4-122.7 1.3-5.4 6.1-9.1 11.7-9.1h29.1c5.6 0 10.4 3.8 11.7 9.2 24 100.4 28.8 124 29.6 129.4-.2-11.2-2.6-17.8 21.6-129.2 1-5.6 5.9-9.5 11.5-9.5zM384 121.9v6.1H256V0h6.1c6.4 0 12.5 2.5 17 7l97.9 98c4.5 4.5 7 10.6 7 16.9z"></path></svg><!-- <i class="fas fa-file-pdf fa-4x"></i> -->
+                            </div>
+                            <div class="col-3">
+                                <svg class="svg-inline--fa fa-file-pdf fa-w-12 fa-4x" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="file-pdf" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M181.9 256.1c-5-16-4.9-46.9-2-46.9 8.4 0 7.6 36.9 2 46.9zm-1.7 47.2c-7.7 20.2-17.3 43.3-28.4 62.7 18.3-7 39-17.2 62.9-21.9-12.7-9.6-24.9-23.4-34.5-40.8zM86.1 428.1c0 .8 13.2-5.4 34.9-40.2-6.7 6.3-29.1 24.5-34.9 40.2zM248 160h136v328c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V24C0 10.7 10.7 0 24 0h200v136c0 13.2 10.8 24 24 24zm-8 171.8c-20-12.2-33.3-29-42.7-53.8 4.5-18.5 11.6-46.6 6.2-64.2-4.7-29.4-42.4-26.5-47.8-6.8-5 18.3-.4 44.1 8.1 77-11.6 27.6-28.7 64.6-40.8 85.8-.1 0-.1.1-.2.1-27.1 13.9-73.6 44.5-54.5 68 5.6 6.9 16 10 21.5 10 17.9 0 35.7-18 61.1-61.8 25.8-8.5 54.1-19.1 79-23.2 21.7 11.8 47.1 19.5 64 19.5 29.2 0 31.2-32 19.7-43.4-13.9-13.6-54.3-9.7-73.6-7.2zM377 105L279 7c-4.5-4.5-10.6-7-17-7h-6v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-74.1 255.3c4.1-2.7-2.5-11.9-42.8-9 37.1 15.8 42.8 9 42.8 9z"></path></svg><!-- <i class="fas fa-file-pdf fa-4x"></i> -->
+                            </div></div>
+                    </td>
+                </tr>
+                <tr class="align-middle alert border-bottom" role="alert">
+                    <td class="text-center"><img class="pic"
+                                                 src="https://www.freepnglogos.com/uploads/shoes-png/dance-shoes-png-transparent-dance-shoes-images-5.png"
+                                                 alt=""></td>
+                    <td>
+                        <div>
+                            <p class="m-0 fw-bold">سوالات فیزیک ۲</p>
+                            <p class="m-0 text-muted">یکسری توضیحات راجع به سوالات که میتواند متغییر باشد</p>
+                        </div>
+                    </td>
+                    <td class="font-titr">
+                        ۱۴۰۰/۱۲/۱۲
+                    </td>
+                    <td class="d-">
+                        <p class="m-0 text-muted-bold">
+                            Doc
+                        </p>
+                    </td>
+                    <td class="font-titr">
+                        ۱۴۰۰/۱۲/۱۵
+                    </td>
+                    <td>
+                        <div class="row">
+                            <div class="col-3 offset-3">
+                                <i class="far fa-arrow-alt-circle-down fa-4x"></i>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="align-middle alert border-bottom" role="alert">
+                    <td class="text-center"><img class="pic"
+                                                 src="https://www.freepnglogos.com/uploads/shoes-png/dance-shoes-png-transparent-dance-shoes-images-5.png"
+                                                 alt=""></td>
+                    <td>
+                        <div>
+                            <p class="m-0 fw-bold">سوالات فیزیک ۲</p>
+                            <p class="m-0 text-muted">یکسری توضیحات راجع به سوالات که میتواند متغییر باشد</p>
+                        </div>
+                    </td>
+                    <td class="font-titr">
+                        ۱۴۰۰/۱۲/۱۲
+                    </td>
+                    <td class="d-">
+                        <p class="m-0 text-muted-bold">
+                            Doc
+                        </p>
+                    </td>
+                    <td class="font-titr">
+                        ۱۴۰۰/۱۲/۱۵
+                    </td>
+                    <td>
+                        <button class="btn btn-primary btn-lg">دانلود فایل ها</button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
         </div>
+    </div>
 
-    </nav>
+</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 
 
-    <script src="./assets/fontawesome-free-5.14.0-web/js/all.js">
-    </script>
+<script src="./assets/fontawesome-free-5.14.0-web/js/all.js">
+</script>
 
-    <!-- alpine js -->
-    <script defer src="https://unpkg.com/alpinejs@3.4.1/dist/cdn.min.js"></script>
-    <!-- JQERY CDN -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<!-- alpine js -->
+<script defer src="https://unpkg.com/alpinejs@3.4.1/dist/cdn.min.js"></script>
+<!-- JQERY CDN -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-    <!-- JS FILE -->
-    <script src="assets/js/contact.js"></script>
+<!-- JS FILE -->
+<script src="assets/js/contact.js"></script>
 
 </body>
 

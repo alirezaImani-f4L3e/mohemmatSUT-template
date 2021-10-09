@@ -33,6 +33,7 @@ only screen and (max-width: 900px),
     .download_link{
         display: block;
     }
+
     .table tbody td {
         padding: 10px;
         margin: 0;

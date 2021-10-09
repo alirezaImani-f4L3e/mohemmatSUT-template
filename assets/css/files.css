@@ -1,4 +1,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@media (max-width: 700px) {
+    .table-responsive {
+        width: 60%;
+    }
+}
+@media (min-width: 900px) {
+    .download_link{
+        display: none;
+    }
+    .pic {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+    }
+    .table tbody td {
+        padding: 30px;
+        margin: 0;
+        font-size: 14.5px;
+        font-weight: 600
+    }
+
+}
+@media
+only screen and (max-width: 900px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+   /*delete images */
+    .download_img{
+        display: none;
+    }
+    /*show download link*/
+    .download_link{
+        display: block;
+    }
+    .table tbody td {
+        padding: 10px;
+        margin: 0;
+        font-size: 14.5px;
+        font-weight: 600
+    }
+
+    .pic {
+        width: 200px;
+        height: 150px;
+        object-fit: contain;
+    }
+    /* Force table to not be like tables anymore */
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr { border: 1px solid #ccc; }
+
+    td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+    /*
+    Label the data
+    */
+    td:nth-of-type(2):before { content: "توضیحات"; }
+    td:nth-of-type(3):before { content: "تاریخ آپلود"; }
+    td:nth-of-type(4):before { content: "نوع فایل"; }
+    td:nth-of-type(5):before { content: "حجم فایل"; }
+    td:nth-of-type(6):before { content: "آخرین تغییر"; }
+    td:nth-of-type(7):before { content: "دسترسی"; }
+}
 
 * {
     margin: 0;
@@ -7,21 +96,16 @@
     font-family: 'Roboto', sans-serif
 }
 
-.pic {
-    width: 50px;
-    height: 50px;
-    object-fit: contain
-}
+/*.pic {*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    object-fit: contain*/
+/*}*/
 
 .table thead {
     background-color: #21cf95
 }
 
-.table thead th {
-    padding: 30px;
-    font-size: 14px;
-    color: white
-}
 
 .table tbody td input[type="checkbox"] {
     appearance: none;
@@ -32,7 +116,11 @@
     border-radius: 3px;
     cursor: pointer
 }
-
+.table thead th {
+    padding: 30px;
+    font-size: 14px;
+    color: white
+}
 .container .table-wrap {
     margin: 20px auto;
     overflow-x: auto
@@ -92,12 +180,6 @@
     background-color: #ddd
 }
 
-.table tbody td {
-    padding: 30px;
-    margin: 0;
-    font-size: 14.5px;
-    font-weight: 600
-}
 
 .table tbody td .fa-times {
     color: #D32F2F

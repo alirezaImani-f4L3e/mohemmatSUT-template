@@ -1,9 +1,10 @@
-.main-container-pv {
-    width: 100%;
+.homeContainer {
+    width: 95%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin: auto;
 }
 
 .custom-green-color {
@@ -57,9 +58,24 @@
 }
 
 .course-card-image {
-    width: 200px;
-    height: 200px;
+    width: 80%;
+    height: 80%;
     border-radius: 6px;
+}
+
+.article {
+    border-radius: 6px;
+    min-height: 250px;
+}
+
+.article__image {
+    width: 80%;
+    height: 80%;
+    border-radius: 6px;
+}
+
+.article__viewArticle--fontSize {
+    font-size: 14px;
 }
 
 .buy-button {
@@ -72,8 +88,13 @@
     color: white;
 }
 
-.comments {
-    height: 300px;
+.comment {
+    min-height: 300px;
+}
+
+.comment__position--fontSize {
+    font-size: 14px;
+    color: gray;
 }
 
 .avatar {

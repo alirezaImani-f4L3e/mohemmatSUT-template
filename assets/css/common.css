@@ -6,6 +6,11 @@
     font-family: Vazir!important;
 }
 
+
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+
 .navbar-pv {
     height: 70px;
 }
@@ -104,9 +109,12 @@
     border-radius: 10px;
 }
 
+.footer--margin {
+    margin-top: 150px;
+}
+
 .footer {
     width: 90%;
-    margin-top: 60px;
     margin: auto;
 }
 
